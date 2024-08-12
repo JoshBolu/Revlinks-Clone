@@ -127,7 +127,7 @@ const scrollUp = ()=>{
 window.addEventListener("scroll", scrollUp);
 
 /*-------- SCROLL REVEAL ANIMATION ---------*/
-const sr = ScrollReveal({
+/* const sr = ScrollReveal({
     origin: "top",
     distance: "60px",
     duration: 2500,
@@ -143,7 +143,7 @@ sr.reveal(".stats_reveal", {interval: 300});
 sr.reveal(".newsletter-reveal", {origin: "right"});
 sr.reveal(".single-list", {interval: 300});
 sr.reveal(".copyright-cont", {origin: "left"});
-sr.reveal(".socials-cont", {origin: "right"});
+sr.reveal(".socials-cont", {origin: "right"}); */
 
 //stop form from reloading upon submission
 document.querySelector(".form-cont").addEventListener("submit", event =>{
