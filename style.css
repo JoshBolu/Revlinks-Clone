@@ -57,6 +57,7 @@ body.dark-theme{
 /*--------- BASE ---------*/
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
   
 body{
