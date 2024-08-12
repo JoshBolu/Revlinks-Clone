@@ -134,7 +134,8 @@ const sr = ScrollReveal({
     delay: 400,
 })
 
-sr.reveal(".intro-cont, .def-revo-solu-cont, .reviews-cont, .newsletter-reveal, .footer-cont");
+sr.reveal(".intro-cont-description, .def-revo-solu-cont, .reviews-cont, .newsletter-reveal, .footer-cont");
+sr.reveal(".intro-cont-img", {origin: "bottom"});
 sr.reveal(".oper-arms-cont",{origin: "left"}, {delay: 1000});
 sr.reveal(".single-brand-cont", {interval: 100});
 sr.reveal(".single-solu-cont", {origin: "left"}, {interval: 200});
